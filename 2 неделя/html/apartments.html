@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>Нефритовый дворец</title>
+<link rel="icon" href="../picture/logo.svg">
+<link rel="stylesheet" type="text/css" href="../style/style.css">
+</head>
+<body>
+
+<nav class="navMenu">
+<img src="../picture/logotip.svg">
+</br>
+<a href="../index.html">Главная</a>
+<a href="../html/about_us.html">О нас</a>
+<a href="../html/apartments.html">Квартиры</a>
+<a href="../html/mortgage.html">Ипотека</a>
+</nav>
+
+<div class="content">
+<input type="text" placeholder="Введите запрос...">
+<button class="filt" type="button"><a href="#">Поиск</a></button>
+</div>
+
+<div class="anketa">
+<h1>Фильтр:</h1>
+
+<table class="filter">
+<tr>
+<td><p><b>Выбор услуги:</b></p></td>   
+<td><p><b>Количество комнат:</b></p></td>
+<td><p><b>Цена:</b></p></td>
+<td><p><b>Сортировка:</b></p></td>
+</tr>
+<td>
+<form>
+<label class="filtr"><input name="dzen" type="radio" value="nedzen">Покупка</label>
+<label class="filtr"><input name="dzen" type="radio" value="dzen">Аренда</label>
+</form>
+</td>
+<td>
+<label class="filtr"><input type="checkbox" value="0">Студия</label>
+<label class="filtr"><input type="checkbox" value="1">1</label>
+<label class="filtr"><input type="checkbox" value="2">2</label>
+<label class="filtr"><input type="checkbox" value="3">3</label>
+<label class="filtr"><input type="checkbox" value="4">4+</label>
+</td>
+<td>
+
+<span id="rangeValue">0</span>
+<input class="range" type="range" value="0" min="0" max="10000000" 
+onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></input>
+
+<script>
+function rangeSlide(value) 
+{
+document.getElementById('rangeValue').innerHTML = value;
+}
+</script>
+
+</td>
+<td>
+<select>
+<option>По цене, сначала дешевые</option>
+<option>По цене, сначала дорогие</option>
+<option selected>По популярности</option>
+<option>По названию, А-Я</option>
+<option>По названию, Я-А</option>
+</select> 
+</td>
+</table>
+
+</br>
+<button class="filt" type="button" ><a href="#">Найти</a></button>
+
+</div>
+
+<div class="content1">
+<h1>Акции</h1>
+</div>
+
+<marquee>
+<p class="stroka">АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ
+АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ 
+АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ  
+</p>
+</marquee>
+
+<div class="sale">
+<a class="lake" href="../html/about_the_apartment.html" title="5 100 200 руб" alt="Двухкомнатная квартира площадью 48,2 квадратных метров.">
+<img src="../picture/plan1.png"></a>
+<a class="lake" href="../html/about_the_apartment.html" title="4 200 100 руб" alt="Однокомнатная квартира площадью квадратных 41,9 метров.">
+<img src="../picture/plan2.png"></a>
+<a class="lake" href="../html/about_the_apartment.html" title="4 100 300 руб" alt="Однокомнатная квартира площадью квадратных 41,5 метров.">
+<img src="../picture/plan3.png"></a>
+<a class="lake" href="../html/about_the_apartment.html" title="6 296 500 руб" alt="Двухкомнатная квартира площадью 62,8 квадратных метров.">
+<img src="../picture/plan4.png"></a>
+</div>
+
+<marquee>
+<p class="stroka">АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ
+АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ 
+АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ АКЦИЯ  
+</p>
+</marquee>
+
+<div class="content1">
+<h1>Квартиры</h1>
+</div>
+
+<table class="appart">
+<tr>
+<td><a href="../html/about_the_apartment.html" class="lake" title="5 100 200 руб" alt="Двухкомнатная квартира площадью 48,2 квадратных метров.">
+<img src="../picture/plan1.png"></a></td>
+<td><a href="../html/about_the_apartment.html" class="lake" title="4 200 100 руб" alt="Однокомнатная квартира площадью 41,9 квадратных метров.">
+<img src="../picture/plan2.png"></a></td>
+<td><a href="../html/about_the_apartment.html" class="lake" title="4 100 300 руб" alt="Однокомнатная квартира площадью 41,5 квадратных метров.">
+<img src="../picture/plan3.png"></a></td>
+<td><a href="../html/about_the_apartment.html" class="lake" title="6 296 500 руб" alt="Двухкомнатная квартира площадью 62,8 квадратных метров.">
+<img src="../picture/plan4.png"></a></td>
+</tr>
+
+<tr>
+<td><a href="../html/about_the_apartment.html" class="lake" title="5 300 500 руб" alt="Однокомнатная квартира площадью 57,7 квадратных метров.">
+<img src="../picture/plan5.png"></a></td>
+<td><a href="../html/about_the_apartment.html" class="lake" title="7 900 200 руб" alt="Трехкомнатная квартира площадью 81,2 квадратных метров.">
+<img src="../picture/plan6.png"></a></td>
+<td><a href="../html/about_the_apartment.html" class="lake" title="9 900 900 руб" alt="Четырехкомнатная квартира площадью 117,9 квадратных метров.">
+<img src="../picture/plan7.png"></a></td>
+<td><a href="../html/about_the_apartment.html" class="lake" title="6 500 200 руб" alt="Двухкомнатная квартира площадью 63,0 квадратных метров.">
+<img src="../picture/plan8.png"></a></td>
+</tr>
+
+<tr>
+<td><a href="../html/about_the_apartment.html" class="lake" title="5 100 100 руб" alt="Однокомнатная квартира площадью 55,3 квадратных метров.">
+<img src="../picture/plan9.png"></a></td>
+<td><a href="../html/about_the_apartment.html" class="lake" title="9 500 100 руб" alt="Трехкомнатная квартира площадью 117,2 квадратных метров.">
+<img src="../picture/plan10.png"></a></td>
+<td><a href="../html/about_the_apartment.html" class="lake" title="6 900 900 руб" alt="Двухкомнатная квартира площадью 71,9 квадратных метров.">
+<img src="../picture/plan11.png"></a></td>
+<td><a href="../html/about_the_apartment.html" class="lake" title="5 700 100 руб" alt="Двухкомнатная квартира площадью 63,0 квадратных метров.">
+<img src="../picture/plan12.png"></a></td>
+</tr>
+</table>
+
+<div class="content1">
+<h1>Консультации</h1>
+</div>
+
+<div class="anketa">
+<p>Если вы хотите обустроить квартиру под ваши предпочтения и не знаете как это сделать, 
+то заполните анкету и мы вам поможем.</p>
+<input type="text" placeholder="ФИО:">
+<input type="text" placeholder="Email:">
+<input type="text" placeholder="Номер телефона:">
+<button class="filt" type="button"><a href="#">Отправить</a></button>
+</div>
+
+<div class="footer">
+<table class="footer-table2">
+<tr>
+<td>
+<h1>Контакты:</h1>
+<a href="#">+79511258235</a></br>
+<a href="#">jade_palace@gmail.com</a>
+</td>
+<td>
+<h1>Социальные сети:</h1>
+<img src="../picture/vk.svg">
+<img src="../picture/ws.svg">
+<img src="../picture/tg.svg">
+</td>
+<td>
+<h1>Нефритовый дворец:</h1>
+<a href="#">О нас</a></br>
+<a href="#">Подбор квартир</a>
+</td>
+<td>
+<h1>Консультации:</h1>
+<a href="#">Заполнить анкету</a></br>
+<a href="#">Оформить ипотеку</a></br>
+</td>
+</tr>
+</div>
+
+</body>
+</html>
